@@ -1,0 +1,58 @@
+.container {
+    padding: 20px;
+}
+.container-fluid {
+    width: 85% !important;
+}
+
+#actionsBox{
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+}
+
+#request-form{
+    margin-bottom: auto;
+}
+
+#status-text{
+    color: #ff0000; 
+    font-size: 15px;
+    float: left;
+    position: absolute;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+
+    color: white;
+    background-color: #2D142C;
+
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#lookingAtGirl{
+    width: 3%; 
+    right: 15px; 
+    z-index:-1; 
+    bottom: 15px; 
+    position: fixed;
+}
